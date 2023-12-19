@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data 
+ xmlns:oor="http://openoffice.org/2001/registry"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ oor:name="Addons"
+ oor:package="org.openoffice.Office">
+	<node oor:name="AddonUI">
+		<node oor:name="OfficeMenuBar">
+			<node oor:name="GigaChatEnterprise.OfficeMenuBar" oor:op="replace">
+				<prop oor:name="Context" oor:type="xs:string">
+					<value></value>
+				</prop>
+				<prop oor:name="Title" oor:type="xs:string">
+					<value>GigaChatE</value>
+				</prop>
+				<node oor:name="Submenu">
+					<node oor:name="m001" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$continue_text?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Продолжить текст</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m002" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$text_to_simple?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Упростить текст</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m003" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$get_explanations?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Объяснить предложение</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m004" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$get_main_themes?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Основные идеи текста</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m005" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$fix_text?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Исправить ошибки</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m006" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Изменение стилистики текста</value>
+						</prop>
+						<node oor:name="Submenu">
+							<node oor:name="m007" oor:op="replace">
+								<prop oor:name="Context" oor:type="xs:string">
+									<value></value>
+								</prop>
+								<prop oor:name="URL" oor:type="xs:string">
+									<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$text_to_conversational?language=Python&amp;location=user:uno_packages</value>
+								</prop>
+								<prop oor:name="Title" oor:type="xs:string">
+									<value>В разговорный стиль</value>
+								</prop>
+								<prop oor:name="Target" oor:type="xs:string">
+									<value>_self</value>
+								</prop>
+							</node>
+							<node oor:name="m008" oor:op="replace">
+								<prop oor:name="Context" oor:type="xs:string">
+									<value></value>
+								</prop>
+								<prop oor:name="URL" oor:type="xs:string">
+									<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$text_to_official?language=Python&amp;location=user:uno_packages</value>
+								</prop>
+								<prop oor:name="Title" oor:type="xs:string">
+									<value>В деловой стиль</value>
+								</prop>
+								<prop oor:name="Target" oor:type="xs:string">
+									<value>_self</value>
+								</prop>
+							</node>
+						</node>
+					</node>
+					<node oor:name="m009" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$get_options_of_content?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Подобрать оглавления</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m010" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$get_by_custom_prompt?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Ваш запрос</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m029" oor:op="replace">
+                    <prop oor:name="URL" oor:type="xs:string">
+                        <value>private:separator</value>
+                    </prop>
+                	</node>
+					<node oor:name="m030" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$get_info?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Информация о плагине</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+					<node oor:name="m031" oor:op="replace">
+						<prop oor:name="Context" oor:type="xs:string">
+							<value></value>
+						</prop>
+						<prop oor:name="URL" oor:type="xs:string">
+							<value>vnd.sun.star.script:GigaChatEnterprise.oxt|python|GigaChat.py$add_token_dialog?language=Python&amp;location=user:uno_packages</value>
+						</prop>
+						<prop oor:name="Title" oor:type="xs:string">
+							<value>Изменить токен</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</oor:component-data>

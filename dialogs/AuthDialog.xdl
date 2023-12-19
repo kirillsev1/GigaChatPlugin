@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="AuthDialog" dlg:left="204" dlg:top="94" dlg:width="156" dlg:height="105" dlg:closeable="true" dlg:moveable="true">
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:id="password" dlg:tab-index="0" dlg:left="44" dlg:top="58" dlg:width="107" dlg:height="15" dlg:echochar="*"/>
+  <dlg:textfield dlg:id="login" dlg:tab-index="1" dlg:left="44" dlg:top="32" dlg:width="107" dlg:height="15"/>
+  <dlg:text dlg:id="LabelLogin" dlg:tab-index="2" dlg:left="8" dlg:top="33" dlg:width="21" dlg:height="13" dlg:value="Логин" dlg:valign="center"/>
+  <dlg:text dlg:id="LabelPassword" dlg:tab-index="3" dlg:left="8" dlg:top="59" dlg:width="23" dlg:height="13" dlg:value="Пароль" dlg:valign="center"/>
+  <dlg:text dlg:id="Label1" dlg:tab-index="4" dlg:left="18" dlg:top="6" dlg:width="125" dlg:height="15" dlg:value="Введите ваши данные от API GigaChat" dlg:align="center" dlg:valign="center"/>
+  <dlg:button dlg:id="singing" dlg:tab-index="5" dlg:left="120" dlg:top="86" dlg:width="32" dlg:height="13" dlg:value="Войти"/>
+  <dlg:button dlg:id="cancel" dlg:tab-index="6" dlg:left="82" dlg:top="86" dlg:width="32" dlg:height="13" dlg:value="Отмена"/>
+ </dlg:bulletinboard>
+</dlg:window>

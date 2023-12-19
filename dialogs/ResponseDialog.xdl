@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="ResponseDialog" dlg:left="162" dlg:top="89" dlg:width="238" dlg:height="144" dlg:closeable="true" dlg:moveable="true">
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:id="text" dlg:tab-index="2" dlg:left="5" dlg:top="6" dlg:width="230" dlg:height="100" dlg:vscroll="true" dlg:multiline="true"/>
+  <dlg:button dlg:id="after" dlg:tab-index="3" dlg:left="137" dlg:top="121" dlg:width="44" dlg:height="15" dlg:help-text="Текст из окна ответа будет помещен после выделенного текста в документе" dlg:value="После текста"/>
+  <dlg:button dlg:id="before" dlg:tab-index="4" dlg:left="86" dlg:top="121" dlg:width="44" dlg:height="15" dlg:help-text="Текст из окна ответа будет помещен перед выделенным текстом в документе" dlg:value="Перед текстом"/>
+  <dlg:button dlg:id="copy" dlg:tab-index="1" dlg:left="10" dlg:top="121" dlg:width="44" dlg:height="15"  dlg:help-text="Скопировать текст из окна ответа" dlg:value="Скопировать"/>
+  <dlg:button dlg:id="replace" dlg:tab-index="0" dlg:left="188" dlg:top="121" dlg:width="44" dlg:height="15" dlg:help-text="Выделенный в документе текст будет замен текстом из окна ответа" dlg:value="Заменить"/>
+ </dlg:bulletinboard>
+</dlg:window>
