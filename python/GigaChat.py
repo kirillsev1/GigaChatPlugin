@@ -364,9 +364,9 @@ def get_info(content: str = None):
     if token == BASE_CONFIG.get(token):
         token = get_token()
     url_get_token = 'https://ngw.devices.sberbank.ru:9443/api/v2/oauth'
-    data = {'scope': 'GIGACHAT_API_CORP'}
+    data = {'scope': 'GIGACHAT_API_PERS'}
     headers_token = {
-            'Authorization': f'Bearer {token}',
+            'Authorization': f'Base {token}',
             'RqUID': str(uuid.uuid4())}
     token_response = requests.post(url=url_get_token, data=data, headers=headers_token, verify=False)
     if token_response.status_code != 200:
